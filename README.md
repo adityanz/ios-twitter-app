@@ -23,5 +23,5 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/MbVE9t7dcS.gif' title='Video Walkthrough Twitter Part 1 iPhone 8 Simulator' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/bHqdTk1THd.gif' title='Video Walkthrough Twitter Part 1 iPhone 8 Simulator' width='' alt='Video Walkthrough' />
 
