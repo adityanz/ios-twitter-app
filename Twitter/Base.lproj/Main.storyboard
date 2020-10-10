@@ -83,8 +83,15 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="@handle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uKh-VD-kk5">
+                                            <rect key="frame" x="264" y="8" width="95" height="21"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                            <color key="textColor" systemColor="systemGray2Color"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="uKh-VD-kk5" firstAttribute="top" secondItem="Xds-aL-GvN" secondAttribute="topMargin" constant="1" id="DJU-Ju-6bW"/>
                                         <constraint firstItem="fdt-WP-hyy" firstAttribute="trailing" secondItem="Xds-aL-GvN" secondAttribute="trailingMargin" id="DUh-LM-lbv"/>
                                         <constraint firstItem="fdt-WP-hyy" firstAttribute="leading" secondItem="SCh-Yw-IIx" secondAttribute="trailing" constant="8" id="KI8-Wc-W4u"/>
                                         <constraint firstItem="g7w-Kd-3VA" firstAttribute="leading" secondItem="SCh-Yw-IIx" secondAttribute="trailing" constant="8" id="Ozh-cp-8n5"/>
@@ -93,9 +100,11 @@
                                         <constraint firstItem="g7w-Kd-3VA" firstAttribute="top" secondItem="Xds-aL-GvN" secondAttribute="topMargin" id="Wj5-ww-IXi"/>
                                         <constraint firstItem="fdt-WP-hyy" firstAttribute="bottom" secondItem="Xds-aL-GvN" secondAttribute="bottomMargin" id="bIW-Ua-ivN"/>
                                         <constraint firstItem="fdt-WP-hyy" firstAttribute="top" secondItem="g7w-Kd-3VA" secondAttribute="bottom" constant="4" id="qkP-KH-FWP"/>
+                                        <constraint firstItem="uKh-VD-kk5" firstAttribute="trailing" secondItem="Xds-aL-GvN" secondAttribute="trailingMargin" id="qrz-1S-jVD"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="handleLabel" destination="uKh-VD-kk5" id="AGS-u5-bl2"/>
                                     <outlet property="profileImageView" destination="SCh-Yw-IIx" id="nm1-HG-bsi"/>
                                     <outlet property="tweetContent" destination="fdt-WP-hyy" id="u2O-1w-412"/>
                                     <outlet property="userNameLabel" destination="g7w-Kd-3VA" id="6IK-nQ-USQ"/>
@@ -141,6 +150,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

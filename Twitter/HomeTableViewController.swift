@@ -63,7 +63,13 @@ class HomeTableViewController: UITableViewController {
         
         let user = tweetArray[indexPath.row]["user"] as! NSDictionary
         
+        let at = "@"
+        let userName = user["screen_name"] as! String
+        let combo = at + userName
+        
         cell.userNameLabel.text = user["name"] as? String
+        cell.handleLabel.text = combo as String
+        
         
         cell.tweetContent.text = tweetArray[indexPath.row]["text"] as? String
      
