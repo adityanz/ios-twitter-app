@@ -1,3 +1,39 @@
+# Twitter - Part II
+
+This is a basic twitter app to view, compose, favorite, and retweet tweets.
+
+Time spent: **5** hours spent in total
+
+## User Stories
+
+The following **required** functionality is completed:
+
+- [X] User can compose a tweet. (4pts)
+- [X] User can favorite a tweet. (4pts)
+- [X] User can retweet a tweet. (2pts)
+
+The following **bonus** features are implemented:
+
+- [ ] When composing a tweet, user sees a countdown for the number of characters remaining for the tweet (out of 280) (2pts)
+- [ ] User can view their profile in a profile tab. (3pts)
+- [ ] User sees embedded images in tweet if available. (3pts)
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+### Creating a tweet
+<img src='http://g.recordit.co/y4lYYP9qnV.gif' title='Video Create Tweet Twitter Part 2 iPhone 11 Simulator' width='' alt='Video Walkthrough' />
+
+### Like and unlike a tweet
+<img src='http://g.recordit.co/1XF0FS0pcn.gif' title='Video Create Like Twitter Part 2 iPhone 11 Simulator' width='' alt='Video Walkthrough' />
+
+### Retweet a tweet
+<img src='http://g.recordit.co/y4lYYP9qnV.gif' title='Video Create Retweet Twitter Part 2 iPhone 11 Simulator' width='' alt='Video Walkthrough' />
+
+<img src='http://g.recordit.co/yzRqy6j3OJ.gif' title='Video Create Twitter Web' width='' alt='Video Walkthrough' />
+
+
 # Project 3 - *Twitter iOS App*
 
 **Twitter iOS App** is a basic twitter app to read your tweets.
